@@ -10,6 +10,9 @@ namespace ProblemTwo
     {
         static void Main(string[] args)
         {
+            Cat c = new Cat(5, 12, true);
+            c.Move();
+            Console.ReadKey();
         }
     }
 }

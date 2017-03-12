@@ -10,6 +10,9 @@ namespace ProblemOne
     {
         static void Main(string[] args)
         {
+            Dog d = new Dog(3, 25, "Poodle", false);
+            d.Move();
+            Console.ReadKey();
         }
     }
 }
